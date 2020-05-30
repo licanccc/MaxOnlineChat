@@ -5,7 +5,7 @@ const io = require("socket.io")(http);
 // const maxApi = require("max-api");
 
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 
 
