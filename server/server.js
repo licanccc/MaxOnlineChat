@@ -10,9 +10,9 @@ const port = process.env.PORT || 80;
 
 
 io.on("connection",function (socket) {
-    maxApi.outlet('a user connected');
+    console.log('a user connected');
     socket.on("disconnect", function(){
-        maxApi.outlet('user disconnect')
+        console.log('user disconnect')
     } );
     
 });
@@ -20,5 +20,5 @@ io.on("connection",function (socket) {
 
 
 http.listen(port, function () {
-	maxApi.outlet("listening on *:" + port);
+	console.log("listening on *:" + port);
 });
