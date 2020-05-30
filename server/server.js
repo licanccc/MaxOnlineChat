@@ -2,7 +2,7 @@ const express = require("express");// use express to serve up the UI page
 const app = express();
 const http = require("http").Server(app);// Socket.IO uses a http server
 const io = require("socket.io")(http);
-const maxApi = require("max-api");
+// const maxApi = require("max-api");
 
 
 const port = process.env.PORT || 80;
