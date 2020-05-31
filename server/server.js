@@ -5,12 +5,13 @@ const io = require("socket.io")(http);
 // const maxApi = require("max-api");
 
 
-const port = process.env.PORT || 3000;
+const port =  3000;
 
 
 
 io.on("connection",function (socket) {
     console.log('a user connected');
+    socket.emit("success!");
     socket.on("disconnect", function(){
         console.log('user disconnect')
     } );
