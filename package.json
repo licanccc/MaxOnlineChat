@@ -1,0 +1,29 @@
+{
+  "name": "maxOnlinechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Ochat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs-websocket": "^1.7.2",
+    "socket.io": "^2.3.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/licanccc/MaxOnlineChat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/licanccc/MaxOnlineChat/issues"
+  },
+  "homepage": "https://github.com/licanccc/MaxOnlineChat#readme"
+}

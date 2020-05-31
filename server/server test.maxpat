@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 351.0, 327.0, 977.0, 537.0 ],
+		"rect" : [ 181.0, 118.0, 977.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 281.0, 50.0, 102.0 ],
-					"text" : "start success dictionary u117004010"
+					"patching_rect" : [ 66.0, 281.0, 170.0, 22.0 ],
+					"text" : "stdout \"user disconnect\""
 				}
 
 			}
@@ -57,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 246.0, 177.0, 22.0 ],
+					"patching_rect" : [ 572.0, 210.0, 177.0, 22.0 ],
 					"text" : "\"user disconnect\""
 				}
 
@@ -137,12 +136,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 91.0, 160.0, 115.0, 22.0 ],
+					"patching_rect" : [ 91.0, 160.0, 232.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,

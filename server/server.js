@@ -11,7 +11,10 @@ const port =  3000;
 
 io.on("connection",function (socket) {
     console.log('a user connected');
-    socket.emit("success!");
+    socket.on("max-message", (msg) => {
+        socket.broadcast.emit("max-message", msg);
+	});
+
     socket.on("disconnect", function(){
         console.log('user disconnect')
     } );
